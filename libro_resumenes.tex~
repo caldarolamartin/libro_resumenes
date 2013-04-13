@@ -1,0 +1,62 @@
+\documentclass[a4paper,12pt]{book}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,spanish]{babel}
+
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{booktabs}
+\usepackage{pdfpages}
+
+\usepackage{titlesec}
+\setlength\aftertitleunit{\baselineskip}
+\titleformat{\chapter}
+{\normalfont\Huge\bfseries}{}{1em}{}[]
+
+\def\footerlink{}
+\renewcommand{\numberline}[1]{}
+
+\usepackage{wrapfig} % para wrapear el texto alrededor de las figuras
+
+\graphicspath{{./img/}}
+
+
+% The following metadata will show up in the PDF properties
+%\hypersetup{
+%colorlinks = true,
+%urlcolor = black,
+%pdfauthor = {\name},
+%pdfkeywords = {},
+%pdftitle = {Libro de res},
+%pdfsubject = {Curriculum Vitae},
+%pdfpagemode = UseNone}
+\geometry{
+body={6.5in, 8.5in},
+left=1.0in,
+top=1.25in
+}
+
+\begin{document}
+
+\frontmatter
+
+\include{portada}
+
+\mainmatter
+
+\tableofcontents
+
+\include{organizadores}
+
+\include{disertantes}
+
+\include{cronograma}
+
+\include{posters}
+
+\end{document}
