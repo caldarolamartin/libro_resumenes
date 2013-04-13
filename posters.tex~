@@ -2,4 +2,7 @@
 
 Aquí presentamos los resúmenes de los posters que se presentarán el miércoles 21 de mayo a las 18 hs. (Cheq)
 
-\includepdf[scale=1,addtotoc={1,section,1,{A Great Cha2pter},greatc2hap},pagecommand=\thispagestyle{plain}]{./abstracts/caldarola}
+%\includepdf[scale=1,addtotoc={1,section,1,Mcaldarola,MCaldarola},pagecommand=\thispagestyle{plain}]{./abstracts/MCaldarola}
+%M. Caldarola "Microscopía óptica combinada AFM-óptica I: Topografía, Interacción y Localización Molecular en células vivas"
+
+\includepdf[scale=1,addtotoc={1,section,1,{Microscopía óptica combinada AFM-óptica I: Topografía, Interacción y Localización Molecular en células vivas},MCaldarola},pagecommand=\thispagestyle{plain}]{./abstracts/MCaldarola}
