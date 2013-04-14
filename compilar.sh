@@ -1,4 +1,4 @@
-for i in *.tex; do
+for i in ./abstracts/*.tex; do
   pdflatex $i
 done
 pdflatex libro_resumenes.tex
