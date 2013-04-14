@@ -1,0 +1,7 @@
+# Logs and tempfiles #
+######################
+*.log
+*.aux
+*~
+*.backup
+*.out
