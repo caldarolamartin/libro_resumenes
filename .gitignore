@@ -6,3 +6,5 @@
 *.backup
 *.out
 *.toc
+#
+libro_resumenes.pdf
