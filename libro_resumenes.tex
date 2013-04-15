@@ -3,6 +3,9 @@
 \usepackage[T1]{fontenc}
 %\usepackage[utf8]{inputenc}
 \usepackage[english,spanish]{babel}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+
 
 \usepackage{amsmath}
 \usepackage{amsfonts}
@@ -17,6 +20,10 @@
 \setlength\aftertitleunit{\baselineskip}
 \titleformat{\chapter}
 {\normalfont\Huge\bfseries}{}{1em}{}[]
+\titleformat{\section}
+{\normalfont\Large\bfseries}{}{1em}{}[]
+\titleformat{\subsection}
+{\normalfont\large\bfseries}{}{1em}{}[]
 
 \def\footerlink{}
 \renewcommand{\numberline}[1]{}
@@ -36,8 +43,8 @@
 %pdfsubject = {Curriculum Vitae},
 %pdfpagemode = UseNone}
 \geometry{
-body={6.5in, 8.5in},
-left=1.0in,
+body={6.5in, 8.75in},
+left=0.89in,
 top=1.25in
 }
 
