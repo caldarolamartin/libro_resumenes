@@ -7,5 +7,5 @@
 *.out
 *.toc
 #
-./libro_resumenes.pdf
-./abstracts/template/template.pdf
+.libro_resumenes.pdf
+.abstracts/template/template.pdf
