@@ -5,16 +5,18 @@
 \usepackage[english,spanish]{babel}
 \usepackage{helvet}
 \renewcommand{\familydefault}{\sfdefault}
-
-
+  
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
+\usepackage{tikz}
+
 
 \usepackage{hyperref}
 \usepackage{geometry}
 \usepackage{booktabs}
 \usepackage{pdfpages}
+\usepackage{lscape}
 
 \usepackage{titlesec}
 \setlength\aftertitleunit{\baselineskip}
@@ -53,7 +55,6 @@ top=1.25in
 \StrDel{#1}{. }[\simple]
 \includepdf[scale=1,addtotoc={1,section,1,{#1, ``\textit{#2}''}, \simple },pagecommand=\thispagestyle{plain}]{./abstracts/\simple}
 }
-
 
 \begin{document}
 
