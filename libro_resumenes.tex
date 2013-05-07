@@ -58,7 +58,8 @@ top=1.25in
 \usepackage{xstring}
 \newcommand{\incluirpdf}[2]{
 \StrDel{#1}{. }[\simple]
-\includepdf[scale=1,addtotoc={1,section,1,{#1, ``\textit{#2}''}, \simple },pagecommand=\thispagestyle{plain}]{./abstracts/\simple}
+\includepdf[scale=1,addtotoc={1,section,1,{#1, \textit{``#2''}}, \simple
+},pagecommand=\thispagestyle{plain}]{./abstracts/\simple}
 }
 
 \usepackage{multirow}
