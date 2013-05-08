@@ -1,8 +1,10 @@
-\documentclass[a4paper,12pt]{book}
+\documentclass[a4paper,12pt,openright]{book}
 
-\usepackage[T1]{fontenc}
-%\usepackage[utf8]{inputenc}
+%\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
 \usepackage[english,spanish]{babel}
+\DeclareUnicodeCharacter{00A0}{ }
+
 \usepackage{helvet}
 \renewcommand{\familydefault}{\sfdefault}
   
@@ -66,8 +68,13 @@ top=1.25in
 
 \begin{document}
 
+\includepdf{./tapa} 
+
+\thispagestyle{empty}
+
 \frontmatter
 
+\thispagestyle{empty}
 
 \includepdf{./hoja1} 
 
@@ -91,7 +98,9 @@ top=1.25in
 
 \include{posters}
 
-\chapter{Notas}
-\thispagestyle{empty}
+%\chapter{Notas}
+%\thispagestyle{empty}
+
+\includepdf{./contratapa} 
 
 \end{document}
